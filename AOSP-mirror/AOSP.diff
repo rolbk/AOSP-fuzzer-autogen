@@ -1,0 +1,53 @@
+❯ repo status
+project frameworks/av/                          (*** NO BRANCH ***)
+ -m     services/mediaextractor/Android.bp
+ --     services/mediaextractor/fuzzers/Autogen.cpp
+ --     services/mediaextractor/fuzzers/MediaExtractorServiceFuzzerAutogen.cpp
+project frameworks/native/                      (*** NO BRANCH ***)
+ -m     cmds/installd/tests/Android.bp
+ --     cmds/installd/tests/fuzzers/Autogen.cpp
+ --     cmds/installd/tests/fuzzers/InstalldServiceFuzzerAutogen.cpp
+ -m     libs/binder/tests/parcel_fuzzer/binder.cpp
+ -m     libs/binder/tests/parcel_fuzzer/binder_ndk.cpp
+ -m     libs/binder/tests/parcel_fuzzer/include_random_parcel/fuzzbinder/libbinder_driver.h
+ -m     libs/binder/tests/parcel_fuzzer/include_random_parcel/fuzzbinder/libbinder_ndk_driver.h
+ -m     libs/binder/tests/parcel_fuzzer/libbinder_driver.cpp
+ -m     libs/binder/tests/parcel_fuzzer/libbinder_ndk_driver.cpp
+ -m     services/sensorservice/aidl/fuzzer/Android.bp
+ --     services/sensorservice/aidl/fuzzer/autogen.cpp
+ --     services/sensorservice/aidl/fuzzer/fuzzer_autogen.cpp
+project hardware/interfaces/                    (*** NO BRANCH ***)
+ -m     automotive/occupant_awareness/aidl/default/Android.bp
+ --     automotive/occupant_awareness/aidl/default/autogen.cpp
+ --     automotive/occupant_awareness/aidl/default/fuzzer_autogen.cpp
+ -m     threadnetwork/aidl/default/Android.bp
+ --     threadnetwork/aidl/default/autogen.cpp
+ --     threadnetwork/aidl/default/fuzzer_autogen.cpp
+project hardware/st/nfc/                        (*** NO BRANCH ***)
+ -m     aidl/Android.bp
+ --     aidl/fuzzer/NfcServiceFuzzerAutogen.cpp
+project packages/modules/DnsResolver/           (*** NO BRANCH ***)
+ -m     tests/Android.bp
+ --     tests/fuzzer/resolv_service_fuzzer_autogen.cpp
+project packages/modules/NeuralNetworks/        (*** NO BRANCH ***)
+ -m     driver/sample/Android.bp
+ --     driver/sample/Fuzzer_Autogen.cpp
+ --     driver/sample/autogen.cpp
+project packages/modules/StatsD/                (*** NO BRANCH ***)
+ -m     statsd/Android.bp
+ --     statsd/fuzzers/autogen.cpp
+ --     statsd/fuzzers/statsd_service_fuzzer_autogen.cpp
+project packages/modules/Virtualization/        (*** NO BRANCH ***)
+ --     android/virtmgr/fuzzer_autogen.cpp
+project prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/ (*** NO BRANCH ***)
+ -m     x86_64-w64-mingw32/include/sys/types.h
+project system/tools/aidl/                      (*** NO BRANCH ***)
+ -m     Android.bp
+ -m     aidl.cpp
+ --     aidl_to_harness.cpp
+ --     aidl_to_harness.h
+ --     generate_harness.cpp
+ --     generate_harness.h
+ -m     options.cpp
+ -m     options.h
+ 

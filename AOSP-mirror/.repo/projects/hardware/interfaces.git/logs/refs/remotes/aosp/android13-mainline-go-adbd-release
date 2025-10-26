@@ -1,0 +1,1 @@
+0000000000000000000000000000000000000000 b7b79858a8ac0f64fbd500c01d645ed0092da347 Emanuel Mairoll <accounts@emanuelmairoll.at> 1743945193 +0000	fetch --filter=blob:none --quiet --progress aosp --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/aosp/* +refs/heads/android15-qpr2-release:refs/remotes/aosp/android15-qpr2-release +refs/tags/*:refs/tags/*: storing head

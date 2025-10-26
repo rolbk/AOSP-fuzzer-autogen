@@ -1,0 +1,293 @@
+❯ rg fuzzService
+AIDLCppDemo/src/FuzzHelloServer.cpp
+5:using android::fuzzService;
+10:    fuzzService(binder, FuzzedDataProvider(data, size));
+
+hardware/st/nfc/aidl/fuzzer/NfcServiceFuzzer.cpp
+23:using android::fuzzService;
+29:  fuzzService(nfc_service->asBinder().get(), FuzzedDataProvider(data, size));
+
+packages/services/Car/cpp/powerpolicy/server/src/fuzzer.cpp
+23:using ::android::fuzzService;
+33:    fuzzService(server->asBinder().get(), FuzzedDataProvider(data, size));
+
+packages/services/Car/cpp/evs/manager/aidl/tests/fuzz/EnumeratorFuzzer.cpp
+26:using ::android::fuzzService;
+36:    fuzzService(aidlService->asBinder().get(), FuzzedDataProvider(data, size));
+
+hardware/interfaces/vibrator/aidl/default/fuzzer.cpp
+23:using android::fuzzService;
+30:    fuzzService(vibManager->asBinder().get(), FuzzedDataProvider(data, size));
+
+hardware/interfaces/tv/hdmi/earc/aidl/default/fuzzer.cpp
+20:using android::fuzzService;
+27:    fuzzService(earcAidl->asBinder().get(), FuzzedDataProvider(data, size));
+
+hardware/interfaces/tv/hdmi/connection/aidl/default/fuzzer.cpp
+20:using android::fuzzService;
+27:    fuzzService(hdmiAidl->asBinder().get(), FuzzedDataProvider(data, size));
+
+hardware/interfaces/tv/hdmi/cec/aidl/default/fuzzer.cpp
+20:using android::fuzzService;
+27:    fuzzService(hdmiCecAidl->asBinder().get(), FuzzedDataProvider(data, size));
+
+hardware/interfaces/threadnetwork/aidl/default/fuzzer.cpp
+22:using android::fuzzService;
+28:    fuzzService(service->asBinder().get(), FuzzedDataProvider(data, size));
+
+hardware/interfaces/macsec/aidl/default/fuzzer/fuzzer.cpp
+24:    android::fuzzService(service->asBinder().get(), FuzzedDataProvider(data, size));
+
+hardware/interfaces/health/aidl/default/fuzzer.cpp
+25:using android::fuzzService;
+33:    fuzzService(binder->asBinder().get(), FuzzedDataProvider(data, size));
+
+hardware/interfaces/cas/aidl/default/fuzzer.cpp
+21:using android::fuzzService;
+27:    fuzzService(mediaCasServiceAidl->asBinder().get(), FuzzedDataProvider(data, size));
+
+hardware/interfaces/broadcastradio/aidl/default/fuzzer.cpp
+24:using ::android::fuzzService;
+38:    fuzzService(binder_services, FuzzedDataProvider(data, size));
+
+hardware/interfaces/bluetooth/socket/aidl/default/fuzzer.cpp
+22:using ::android::fuzzService;
+28:  fuzzService(bluetoothSocketAidl->asBinder().get(),
+
+hardware/interfaces/bluetooth/aidl/default/test/fuzzer.cpp
+23:using android::fuzzService;
+29:  fuzzService(service->asBinder().get(), FuzzedDataProvider(data, size));
+
+packages/modules/Virtualization/android/virtmgr/fuzzer.cpp
+29:using android::fuzzService;
+95:    fuzzService(service->asBinder().get(), FuzzedDataProvider(data, size));
+
+hardware/interfaces/automotive/vehicle/aidl/impl/current/vhal/src/fuzzer.cpp
+22:using ::android::fuzzService;
+32:    fuzzService(vhal->asBinder().get(), FuzzedDataProvider(data, size));
+
+hardware/interfaces/automotive/vehicle/aidl/impl/3/vhal/src/fuzzer.cpp
+22:using ::android::fuzzService;
+32:    fuzzService(vhal->asBinder().get(), FuzzedDataProvider(data, size));
+
+hardware/interfaces/automotive/remoteaccess/hal/default/fuzzer/fuzzer.cpp
+196:    android::fuzzService(service->asBinder().get(), FuzzedDataProvider(data, size));
+
+hardware/interfaces/automotive/occupant_awareness/aidl/default/fuzzer.cpp
+27:using ::android::fuzzService;
+35:    fuzzService(occupantAwareness->asBinder().get(), FuzzedDataProvider(data, size));
+
+packages/modules/StatsD/statsd/fuzzers/statsd_service_fuzzer.cpp
+35:    fuzzService(binder->asBinder().get(), FuzzedDataProvider(data, size));
+
+packages/modules/NeuralNetworks/driver/sample/Fuzzer.cpp
+55:    android::fuzzService(device->asBinder().get(), FuzzedDataProvider(data, size));
+
+art/dexopt_chroot_setup/dexopt_chroot_setup_fuzzer.cc
+21:using ::android::fuzzService;
+28:  fuzzService(dexopt_chroot_setup->asBinder().get(), FuzzedDataProvider(data, size));
+
+art/artd/artd_fuzzer.cc
+21:using ::android::fuzzService;
+28:  fuzzService(artd->asBinder().get(), FuzzedDataProvider(data, size));
+
+packages/modules/DnsResolver/tests/fuzzer/resolv_service_fuzzer.cpp
+26:using android::fuzzService;
+40:    fuzzService(resolverService->asBinder().get(), FuzzedDataProvider(data, size));
+
+frameworks/native/services/surfaceflinger/fuzzer/surfaceflinger_service_fuzzer.cpp
+30:    fuzzService({flinger, composerAIDL}, FuzzedDataProvider(data, size));
+
+frameworks/native/services/sensorservice/aidl/fuzzer/fuzzer.cpp
+25:using android::fuzzService;
+50:    fuzzService(sensorService->asBinder().get(), std::move(fdp));
+
+frameworks/native/services/gpuservice/tests/fuzzers/GpuServiceFuzzer.cpp
+21:using ::android::fuzzService;
+27:    fuzzService(gpuService, FuzzedDataProvider(data, size));
+
+frameworks/native/libs/binder/tests/parcel_fuzzer/test_fuzzer/run_fuzz_service_test.sh
+38:        echo -e "${color_success}Success: Found expected crash. fuzzService test successful!"
+
+frameworks/native/libs/binder/tests/parcel_fuzzer/test_fuzzer/fuzz_service_test_config.xml
+16:<configuration description="Runs fuzzService test">
+
+frameworks/native/libs/binder/tests/parcel_fuzzer/test_fuzzer/TestServiceFuzzer.cpp
+41:// This service is to verify that fuzzService is functioning properly
+156:    fuzzService(service, FuzzedDataProvider(data, size));
+
+frameworks/native/libs/binder/tests/parcel_fuzzer/test_fuzzer/Android.bp
+23:// Adding this fuzzer to test the fuzzService functionality
+38:        // This fuzzer should be used only test fuzzService locally
+
+frameworks/native/libs/binder/tests/parcel_fuzzer/random_parcel_seeds.cpp
+65:    // so that we can align fuzzService operations with seed generation for readability.
+212:    // Code in fuzzService relies on provider.remaining_bytes() to select random bytes using
+296:    // Write Fill Parcel buffer size in integralBuffer so that fuzzService knows size of data
+
+frameworks/native/libs/binder/tests/parcel_fuzzer/libbinder_ndk_driver.cpp
+30:void fuzzService(const std::vector<ndk::SpAIBinder>& binders, FuzzedDataProvider&& provider) {
+36:    fuzzService(cppBinders, std::move(provider));
+39:void fuzzService(AIBinder* binder, FuzzedDataProvider&& provider) {
+40:    fuzzService(binder->getBinder(), std::move(provider));
+55:    android::fuzzService(cppBinders, std::move(provider));
+
+frameworks/native/libs/binder/tests/parcel_fuzzer/libbinder_driver.cpp
+30:void fuzzService(const sp<IBinder>& binder, FuzzedDataProvider&& provider) {
+31:    fuzzService(std::vector<sp<IBinder>>{binder}, std::move(provider));
+34:void fuzzService(const std::vector<sp<IBinder>>& binders, FuzzedDataProvider&& provider) {
+41:    // we introduce anything new in fuzzService.
+
+frameworks/native/libs/binder/tests/parcel_fuzzer/include_random_parcel/fuzzbinder/libbinder_ndk_driver.h
+28: * See fuzzService, but fuzzes multiple services at the same time.
+32:void fuzzService(const std::vector<ndk::SpAIBinder>& binders, FuzzedDataProvider&& provider);
+44: *       fuzzService(myService->asBinder().get(), std::move(provider));
+47:void fuzzService(AIBinder* binder, FuzzedDataProvider&& provider);
+
+frameworks/native/libs/binder/tests/parcel_fuzzer/include_random_parcel/fuzzbinder/libbinder_driver.h
+27: * See fuzzService, but fuzzes multiple services at the same time.
+31:void fuzzService(const std::vector<sp<IBinder>>& binders, FuzzedDataProvider&& provider);
+43: *       fuzzService(myService, std::move(provider));
+46:void fuzzService(const sp<IBinder>& binder, FuzzedDataProvider&& provider);
+
+frameworks/native/libs/binder/tests/parcel_fuzzer/binder2corpus/README.md
+3:This tool converts recordings generated by record_binder tool to fuzzer seeds for fuzzService.
+
+frameworks/native/libs/binder/tests/binderRecordReplayTest.cpp
+136:    // use fuzzService to replay the corpus
+138:    fuzzService(binder, std::move(provider));
+
+frameworks/native/cmds/servicemanager/ServiceManagerFuzzer.cpp
+24:using ::android::fuzzService;
+31:    fuzzService(serviceManager, FuzzedDataProvider(data, size));
+
+frameworks/native/cmds/installd/tests/fuzzers/InstalldServiceFuzzer.cpp
+21:using ::android::fuzzService;
+53:    fuzzService(service, FuzzedDataProvider(data, size));
+
+system/vold/tests/VoldFuzzer.cpp
+23:using ::android::fuzzService;
+40:    fuzzService(voldService, FuzzedDataProvider(data, size));
+
+system/update_engine/fuzzers/update_engine_service_fuzzer.cpp
+28:using android::fuzzService;
+46:  fuzzService({binderService, stableBinderService},
+
+system/hardware/interfaces/suspend/1.0/default/fuzzers/SuspendServiceInternalFuzzer.cpp
+21:using ::android::fuzzService;
+27:    fuzzService(service, FuzzedDataProvider(data, size));
+
+system/hardware/interfaces/suspend/1.0/default/fuzzers/SuspendServiceFuzzer.cpp
+21:using ::android::fuzzService;
+28:    fuzzService(suspendControlService, FuzzedDataProvider(data, size));
+
+frameworks/av/services/mediaresourcemanager/fuzzer/resourceobserver_service_fuzzer.cpp
+24:using android::fuzzService;
+30:   fuzzService(service->asBinder().get(), FuzzedDataProvider(data, size));
+
+frameworks/av/services/mediaresourcemanager/fuzzer/resourcemanager_service_fuzzer.cpp
+24:using android::fuzzService;
+31:   fuzzService(service->asBinder().get(), FuzzedDataProvider(data, size));
+
+frameworks/av/services/mediametrics/fuzzer/mediametrics_aidl_fuzzer.cpp
+20:using ::android::fuzzService;
+27:    fuzzService(service, FuzzedDataProvider(data, size));
+
+frameworks/av/services/mediaextractor/fuzzers/MediaExtractorServiceFuzzer.cpp
+20:using ::android::fuzzService;
+27:    fuzzService(service, FuzzedDataProvider(data, size));
+
+frameworks/av/services/camera/virtualcamera/fuzzer/virtual_camera_fuzzer.cc
+25:using android::fuzzService;
+34:  fuzzService(defaultProvider->asBinder().get(), FuzzedDataProvider(data, size));
+40:  fuzzService(binder->asBinder().get(), FuzzedDataProvider(data, size));
+
+frameworks/av/services/camera/libcameraservice/libcameraservice_fuzzer/camera_service_aidl_fuzzer.cpp
+20:using android::fuzzService;
+26:    fuzzService(service, FuzzedDataProvider(data, size));
+
+frameworks/av/services/audiopolicy/fuzzer/aidl/audiopolicy_aidl_fuzzer.cpp
+37:using android::fuzzService;
+104:    fuzzService(media::IAudioPolicyService::asBinder(gAudioPolicyService), std::move(fdp));
+
+system/gsid/fuzzers/GsiServiceFuzzer.cpp
+21:using android::fuzzService;
+27:    fuzzService(binder, FuzzedDataProvider(data, size));
+
+system/core/trusty/confirmationui/fuzzer.cpp
+23:using android::fuzzService;
+28:    fuzzService(confirmationui->asBinder().get(), FuzzedDataProvider(data, size));
+
+system/core/storaged/tests/fuzzers/storaged_service_fuzzer.cpp
+32:    fuzzService(storagedService, FuzzedDataProvider(data, size));
+
+system/core/storaged/tests/fuzzers/storaged_private_service_fuzzer.cpp
+32:    fuzzService(storagedPrivateService, FuzzedDataProvider(data, size));
+
+system/sepolicy/tools/fuzzer_bindings_check.py
+60:                  "- a main file that constructs your service and calls 'fuzzService' \n\n"
+
+system/core/gatekeeperd/fuzzer/GateKeeperServiceFuzzer.cpp
+21:using android::fuzzService;
+28:    fuzzService(gatekeeperService, FuzzedDataProvider(data, size));
+
+frameworks/av/media/libaudioclient/aidl/fuzzer/audioflinger_aidl_fuzzer.cpp
+35:using android::fuzzService;
+102:    fuzzService(media::IAudioFlingerService::asBinder(gAudioFlingerServerAdapter), std::move(fdp));
+
+frameworks/av/media/libmediaplayerservice/fuzzer/media_player_service_fuzzer.cpp
+22:using android::fuzzService;
+27:    fuzzService(service, FuzzedDataProvider(data, size));
+
+system/connectivity/wificond/fuzzers/wificond_service_fuzzer.cpp
+61:    fuzzService(server, FuzzedDataProvider(data, size));
+
+frameworks/av/media/codec2/hal/aidl/fuzzer.cpp
+25:using android::fuzzService;
+33:    fuzzService(binder->asBinder().get(), FuzzedDataProvider(data, size));
+
+frameworks/av/drm/mediadrm/plugins/clearkey/aidl/fuzzer.cpp
+27:using android::fuzzService;
+32:    fuzzService(drmFactory->asBinder().get(),  FuzzedDataProvider(data, size));
+
+frameworks/av/drm/drmserver/fuzzer/DrmFuzzer.cpp
+29:          fuzzService(drmService, FuzzedDataProvider(data, size));
+
+system/security/identity/fuzzers/credstore_service_fuzzer.cpp
+58:    fuzzService(service, FuzzedDataProvider(data, size));
+
+frameworks/base/core/tests/fuzzers/java_service_fuzzer/ServiceFuzzer.java
+24:        // Initialize fuzzService and JNI dependencies
+30:        FuzzBinder.fuzzService(service, data.consumeRemainingAsBytes());
+
+frameworks/base/core/tests/fuzzers/FuzzService/random_parcel_jni.h
+19:    JNIEXPORT void JNICALL Java_randomparcel_FuzzBinder_fuzzServiceInternal(JNIEnv *env, jobject thiz, jobject javaBinder, jbyteArray fuzzData);
+
+frameworks/base/core/tests/fuzzers/FuzzService/random_parcel_jni.cpp
+25:// JNI interface for fuzzService
+26:JNIEXPORT void JNICALL Java_randomparcel_FuzzBinder_fuzzServiceInternal(JNIEnv *env, jobject thiz, jobject javaBinder, jbyteArray fuzzData) {
+33:    fuzzService(binder, std::move(provider));
+
+frameworks/base/core/tests/fuzzers/FuzzService/FuzzBinder.java
+33:    public static void fuzzService(IBinder binder, byte[] data) {
+34:        fuzzServiceInternal(binder, data);
+42:    private static native void fuzzServiceInternal(IBinder binder, byte[] data);
+
+system/netd/server/aidl-fuzzers/NetdNativeServiceFuzzer.cpp
+26:using android::fuzzService;
+41:    fuzzService(service, FuzzedDataProvider(data, size));
+
+system/netd/server/aidl-fuzzers/NetdHwAidlServiceFuzzer.cpp
+25:using android::fuzzService;
+37:    fuzzService(service->asBinder().get(), FuzzedDataProvider(data, size));
+
+external/wpa_supplicant_8/wpa_supplicant/aidl/mainline/fuzzers/mainline_supplicant_service_fuzzer.cpp
+44:    fuzzService(service->asBinder().get(), FuzzedDataProvider(data, size));
+
+frameworks/base/cmds/incidentd/fuzzers/IncidentServiceFuzzer.cpp
+21:using ::android::fuzzService;
+29:    fuzzService(service, FuzzedDataProvider(data, size));
+
+external/ot-br-posix/src/android/otdaemon_fuzzer.cpp
+34:using android::fuzzService;
+51:    fuzzService(service->asBinder().get(), FuzzedDataProvider(data, size));

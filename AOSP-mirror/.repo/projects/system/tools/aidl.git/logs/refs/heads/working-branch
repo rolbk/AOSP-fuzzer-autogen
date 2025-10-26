@@ -1,0 +1,13 @@
+0000000000000000000000000000000000000000 f75a6047c41184db82dc79d2476cad6c8c9bef71 Emanuel Mairoll <accounts@emanuelmairoll.at> 1744404978 +0200	branch: Created from f75a6047c41184db82dc79d2476cad6c8c9bef71
+f75a6047c41184db82dc79d2476cad6c8c9bef71 36a13a3fc4d84b0cb37b12676900c4c95f77f632 Emanuel Mairoll <accounts@emanuelmairoll.at> 1744404994 +0200	commit: First Autogeneration
+36a13a3fc4d84b0cb37b12676900c4c95f77f632 e3cd32cae60dd70fb2ab99c0b9de33e9dc57dc67 Emanuel Mairoll <accounts@emanuelmairoll.at> 1745678012 +0200	commit: Plain data type fuzzing
+e3cd32cae60dd70fb2ab99c0b9de33e9dc57dc67 6480331ac7df652c026aa8706d93f2abb5999a70 Emanuel Mairoll <accounts@emanuelmairoll.at> 1745781358 +0200	commit: All base type fuzzing, but untested
+6480331ac7df652c026aa8706d93f2abb5999a70 bd698a0a87cba0b8c4e67ee6685a3eff2afb9e13 Emanuel Mairoll <accounts@emanuelmairoll.at> 1745870282 +0200	commit: Generates compiling code, but ghost chase
+bd698a0a87cba0b8c4e67ee6685a3eff2afb9e13 b9639eacef29022325003c2473d212d05ef61789 Emanuel Mairoll <accounts@emanuelmairoll.at> 1746350180 +0200	commit: Switched to Parcels, works like a charm
+b9639eacef29022325003c2473d212d05ef61789 83bff9678d6a79786b6cd79137f5a1e57a5092cc Emanuel Mairoll <accounts@emanuelmairoll.at> 1747079376 +0200	commit: clang-format LLVM
+83bff9678d6a79786b6cd79137f5a1e57a5092cc 160c7255bdb73ec0d307af5d2daaacbbdd53de2f Emanuel Mairoll <accounts@emanuelmairoll.at> 1747085792 +0200	commit: Fix parcelable and simplify global buffer
+160c7255bdb73ec0d307af5d2daaacbbdd53de2f abc92e13a9d1110cfbe2b0b45f3385232fde7d1d Emanuel Mairoll <accounts@emanuelmairoll.at> 1747165826 +0200	commit: Support dynamic data types
+abc92e13a9d1110cfbe2b0b45f3385232fde7d1d c585f2ee11f295251334492f821de7ffdad102c4 Emanuel Mairoll <accounts@emanuelmairoll.at> 1747167034 +0200	commit (amend): Support dynamic data types
+c585f2ee11f295251334492f821de7ffdad102c4 266f58fe42d103de569f4464631cb2b0a0c8d947 Emanuel Mairoll <accounts@emanuelmairoll.at> 1747570130 +0200	commit: Fixes for various parcel issues
+266f58fe42d103de569f4464631cb2b0a0c8d947 8cfcb7f1cbedcfb74d23b28c319996cdc30654da Emanuel Mairoll <accounts@emanuelmairoll.at> 1749072103 +0200	commit: Fina version for thesis
+8cfcb7f1cbedcfb74d23b28c319996cdc30654da 59cd629db1477b33ddd07d5fb6437765d3ed9f72 Emanuel Mairoll <accounts@emanuelmairoll.at> 1749079406 +0200	rebase (finish): refs/heads/working-branch onto 266f58fe42d103de569f4464631cb2b0a0c8d947

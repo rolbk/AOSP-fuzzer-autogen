@@ -1,0 +1,17 @@
+[core]
+	repositoryFormatVersion = 1
+	filemode = true
+[filter "lfs"]
+	smudge = git-lfs smudge --skip -- %f
+	process = git-lfs filter-process --skip
+[remote "aosp"]
+	url = https://android.googlesource.com/platform/packages/modules/NeuralNetworks
+	review = https://android-review.googlesource.com/
+	projectname = platform/packages/modules/NeuralNetworks
+	fetch = +refs/heads/*:refs/remotes/aosp/*
+	partialclonefilter = blob:none
+[extensions]
+	partialclone = aosp
+[branch "main"]
+	remote = aosp
+	merge = refs/heads/main

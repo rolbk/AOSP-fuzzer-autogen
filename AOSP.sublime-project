@@ -1,0 +1,50 @@
+{
+	"folders":
+	[
+		{
+			"path": "AOSP/system/tools/aidl",
+		},
+		{
+			"path": "AOSP/aidl_gen",
+		},
+		{
+			"path": "AOSP/AIDLCppDemo",
+		},
+		{
+			"path": "AOSP/aidl_make",
+		},
+		{
+			"path": "AOSP/frameworks/native/libs/binder",
+		},
+		{
+			"path": "AOSP/frameworks/native/services/inputflinger",
+		},
+		{
+			"path": "AOSP/frameworks/native/libs/gui",
+		},
+		{
+			"path": "AOSP/packages/modules/DnsResolver",
+		},
+		{
+			"path": "AOSP/system/connectivity/wificond",
+		},
+		{
+			"path": "AOSP/hardware/st/nfc",
+		},
+		{
+			"path": "AOSP/hardware/interfaces/nfc",
+		},
+		{
+			"path": "AOSP/frameworks/native/services/sensorservice",
+		},
+		{
+			"path": "AOSP/hardware/interfaces/vibrator",
+		},
+		{
+			"path": "AOSP/packages/modules/NeuralNetworks",
+		},
+		{
+			"path": "AOSP/hardware/interfaces/automotive/occupant_awareness",
+		},
+	],
+}

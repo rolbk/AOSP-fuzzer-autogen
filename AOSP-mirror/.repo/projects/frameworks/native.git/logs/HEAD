@@ -1,0 +1,4 @@
+38e8c45f13ce32b0dcecb25141ffecaf386fa17f f1040853fc13f6105acb88bd4e15ecbf5fb1aa38 Emanuel Mairoll <accounts@emanuelmairoll.at> 1761510784 +0100	commit: [binder] Add autogen adapter
+f1040853fc13f6105acb88bd4e15ecbf5fb1aa38 43ee162fb847a81f6b23ef9371f22aa7984b3d34 Emanuel Mairoll <accounts@emanuelmairoll.at> 1761510805 +0100	commit: [binder] Disable refuzzing for fair comparison
+43ee162fb847a81f6b23ef9371f22aa7984b3d34 1ba682f26c71428dfb84db25bd03cce11c7cd407 Emanuel Mairoll <accounts@emanuelmairoll.at> 1761510850 +0100	commit: [installd] Create custom fuzzer
+1ba682f26c71428dfb84db25bd03cce11c7cd407 58767db8a23a5bdda34f8f5c558efd722ccd0957 Emanuel Mairoll <accounts@emanuelmairoll.at> 1761510868 +0100	commit: [sensorservice] Create custom fuzzer

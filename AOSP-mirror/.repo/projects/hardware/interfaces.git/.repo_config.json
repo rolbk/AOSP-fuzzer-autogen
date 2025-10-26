@@ -1,0 +1,32 @@
+{
+  "core.repositoryformatversion": [
+    "1"
+  ],
+  "core.filemode": [
+    "true"
+  ],
+  "filter.lfs.smudge": [
+    "git-lfs smudge --skip -- %f"
+  ],
+  "filter.lfs.process": [
+    "git-lfs filter-process --skip"
+  ],
+  "remote.aosp.url": [
+    "https://android.googlesource.com/platform/hardware/interfaces"
+  ],
+  "remote.aosp.review": [
+    "https://android-review.googlesource.com/"
+  ],
+  "remote.aosp.projectname": [
+    "platform/hardware/interfaces"
+  ],
+  "remote.aosp.fetch": [
+    "+refs/heads/*:refs/remotes/aosp/*"
+  ],
+  "remote.aosp.partialclonefilter": [
+    "blob:none"
+  ],
+  "extensions.partialclone": [
+    "aosp"
+  ]
+}
